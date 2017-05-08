@@ -4,18 +4,13 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Base64;
 import android.util.Log;
-
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
-
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-
 import io.reactivex.Flowable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
-
 import static android.content.ContentValues.TAG;
 import static java.lang.String.format;
 
